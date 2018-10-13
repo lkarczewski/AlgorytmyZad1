@@ -13,27 +13,36 @@ namespace LukaszAlgo1
         {
             Obliczenia o1 = new Obliczenia();
 
-            double x = 0.004;
-            int k = 49;
+            //double x = 0.5;
+            //double a = 0.9;
+            //double b = 0.2;
+            //int k = 30;
 
-            //double wynikFunkcji = o1.SumaSzereguOdPoczatku(x, k);
-            //double wynikFunkcji = o1.SumaSzereguOdKonca(x, k);
-            //double wynikFunkcji1 = o1.SumaPoprzedniegoOdPoczatku(x, k);
-            //double wynikFunkcji2 = o1.SumaPoprzedniegoOdKonca(x, k);
-            //double wynikMath = o1.FunkcjaWbudowana(x);
-            //Console.WriteLine(String.Format("{0:F30}", wynikFunkcji));
+            //double wynikFunkcji1 = o1.SumaSzereguOdPoczatku(a, k);
+            //double wynikFunkcji2 = o1.SumaSzereguOdPoczatku(b, k);
+            //double wynikFunkcji2 = o1.SumaSzereguOdKonca(x, k);
+            //double wynikFunkcji3 = o1.SumaPoprzedniegoOdPoczatku(x, k);
+            //double wynikFunkcji4 = o1.SumaPoprzedniegoOdKonca(x, k);
+            //double wynikMath1 = o1.FunkcjaWbudowana(a);
+            //double wynikMath2 = o1.FunkcjaWbudowana(b);
+
             //Console.WriteLine(String.Format("{0:F30}", wynikFunkcji1));
             //Console.WriteLine(String.Format("{0:F30}", wynikFunkcji2));
+            //Console.WriteLine(String.Format("{0:F30}", wynikFunkcji3));
+            //Console.WriteLine(String.Format("{0:F30}", wynikFunkcji4));
             //Console.WriteLine("a teraz wbudowana");
-            //Console.WriteLine(String.Format("{0:F30}", wynikMath));
+            //Console.WriteLine(String.Format("{0:F30}", wynikMath1));
+            //Console.WriteLine(String.Format("{0:F30}", wynikMath2));
 
             Test t1 = new Test();
             //t1.TestSzereguOdPoczatku();
             //t1.TestSzereguOdKonca();
             //t1.TestSumowaniaWzgledemPoprzedniegoOdPoczatku();
-            t1.TestSumowaniaWzgledemPoprzedniegoOdKonca();
-            //t1.TestDokladnosciOdPoczatku();
-            //t1.TestDokladniosciOdKonca();
+            //t1.TestSumowaniaWzgledemPoprzedniegoOdKonca();
+            //t1.TestDokladnosciKolejnosciSumowania(0.5,50);
+            //t1.TestDokladnosciWzoru(0.5,30);
+            //t1.TestWielkosciArgumentu(0.5, 1, 30);
+            t1.TestLiczbySumowanychWyrazow(30);
         }
     }
 }
